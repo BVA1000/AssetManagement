@@ -1,0 +1,109 @@
+body {
+    background-color: rgb(87, 170, 253);
+}
+
+header {
+    background-color: rgb(2, 2, 104);
+    color:rgb(238, 186, 54);
+    text-align: center;
+    padding: 5px;
+}
+
+.asset {
+    font-size: 27px;
+}
+
+.assets {
+    margin: 4px;
+    padding-top: 4px;
+    padding-bottom: 5px;
+    width: 300px;
+}
+
+.asset-list {
+    font-size: 40px;
+    text-align: justify;
+}
+
+.description {
+    font-size: 20px;
+}
+
+#part1 {
+    border:rgb(2, 2, 104) solid 4px;
+    border-radius: none;
+    background-color: rgb(250, 211, 85);
+    color:rgb(5, 21, 255);
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 7.5px;
+    text-align: center;
+    padding: 50px;
+}
+
+#submit-button {
+    border: rgb(2, 2, 104) solid;
+    border-radius: 3px;
+    background-color:rgb(253, 222, 121);
+    color:rgb(2, 2, 104);
+    margin: 7px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 110px;
+}
+
+#submit-button:hover {
+    background-color: rgb(2, 2, 104);
+    color: rgb(253, 222, 121);
+}
+
+#part2 {
+    border:rgb(2, 2, 104) solid 4px;
+    border-radius: none;
+    background-color: rgb(250, 211, 85);
+    color:rgb(5, 21, 255);
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 7.5px;
+    margin-bottom: 65px;
+    text-align: center;
+    padding: 50px;
+}
+
+.footer-des {
+    font-size: 22px;
+}
+
+#listAssetTotal {
+    color:rgb(175, 3, 69);
+}
+
+footer {
+    background-color: rgb(2, 2, 104);
+    color:rgb(238, 186, 54);
+    text-align: center;
+    height: 50px;
+    padding: 7px;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.content {
+    min-height: 100%;
+}
+
+.content-inside {
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+.footer {
+    height: 50px;
+    margin-top: -50px;
+}
